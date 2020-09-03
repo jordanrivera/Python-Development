@@ -2,6 +2,7 @@ from blog import Blog
 
 MENU_PROMPT = 'Enter "c" to create a blog, "1" to lost blogs, "r" to read one, "p" to create a post, or "q" to quit: '
 POST_TEMPLATE = '''---{}---{}'''
+
 blogs = dict()  # blog name : Blog object
 
 
