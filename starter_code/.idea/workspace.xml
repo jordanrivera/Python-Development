@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="952879a6-2bb3-4251-9829-903942f6891d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/unit/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/models/test_item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/models/test_item.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/models/test_item.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +32,42 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
+  <component name="RunManager" selected="Python tests.Unittests for test_item.ItemTest.test_item_json">
+    <configuration name="Unittests for test_item.ItemTest.test_create_item" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="starter_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_item.ItemTest.test_create_item&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_item.ItemTest.test_item_json" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="starter_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_item.ItemTest.test_item_json&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for test_item.ItemTest.test_item_json" />
+        <item itemvalue="Python tests.Unittests for test_item.ItemTest.test_create_item" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,5 +81,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="984" height="226" key="GridCell.Tab.0.bottom" timestamp="1599298466034">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="984" height="226" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1599298466034" />
+    <state width="984" height="226" key="GridCell.Tab.0.center" timestamp="1599298466033">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="984" height="226" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1599298466033" />
+    <state width="984" height="226" key="GridCell.Tab.0.left" timestamp="1599298466033">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="984" height="226" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1599298466033" />
+    <state width="984" height="226" key="GridCell.Tab.0.right" timestamp="1599298466034">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="984" height="226" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1599298466034" />
   </component>
 </project>
