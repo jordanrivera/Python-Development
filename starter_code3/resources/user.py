@@ -5,8 +5,7 @@ from models.user import UserModel
 class UserRegister(Resource):
     parser = reqparse.RequestParser()
     parser.add_argument('username', type=str, required=True,help="This field cannot be blank.")
-    parser.add_argument('password', type=str, required=True, help="This field cannont be blank.")
-
+    parser.add_argument('password', type=str, required=True, help="This field cannot be blank.")
 
     def post(self):
         data = UserRegister.parser.parse_args()
