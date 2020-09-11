@@ -28,6 +28,7 @@ api.add_resource(StoreList, '/stores')
 
 api.add_resource(UserRegister, '/register')
 
+
 @app.errorhandler(JWTError)
 def auth_error_handler(err):
     return jsonify({'message': 'Could not authorise. Did you include a valid Authorization header?'}), 401
