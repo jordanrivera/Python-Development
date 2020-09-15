@@ -9,3 +9,7 @@ Feature: Test navigation between pages
     Given I am on the blog page
     When I click on the "Go to home" link
     Then I am on the homepage
+
+  Scenario: Blog page loads posts
+    Given I am on the blog page
+    Then I can see there is a posts section on the page
