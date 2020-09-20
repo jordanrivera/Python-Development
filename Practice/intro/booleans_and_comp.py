@@ -21,4 +21,10 @@ print(f"At {age}, you are usually working: {usually_working}.")
 print(bool(35))
 print(bool(""))
 
+name = input("Enter your name: ")
+surname = input("Enter your surname: ")
+
+greeting = name or f"Mr. {surname}"
+print(greeting)
+
 
