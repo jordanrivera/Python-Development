@@ -21,5 +21,26 @@ for status in cars:
         print("This car is faluty")
         break
     print(f"This car is o{status}.")
-    
+
+# repeating loops with range
+for i in range(20):
+    print(i)
+
+kid_ages = (3, 7, 12)
+for age in kid_ages:
+    print(f"I have a {age} year old kid.")
+
+# Printing 1 to 100 including 100
+# Instead of printing multiples 3 print fizz
+# instead of printing multiples 5 print buzz
+
+for n in range(1,101):
+    if n % 3 == 0 and n % 5 == 0:
+        print("FizzBuzz")
+    elif n % 3 == 0:
+        print("Fizz")
+    elif n % 5 == 0:
+        print("Buzz")
+    else:
+        print(n)
 
