@@ -6,7 +6,8 @@ players =[
     {"name": "Rolf", "numbers": {1,3,5,7,9,11}},
     {"name": "Charlie", "numbers": {2,7,9,22,10,5}},
     {"name": "Anna", "numbers": {13,14,15,16,17,18}},
-    {"name": "Jen", "numbers": {19,20,12,7,3,5}}
+    {"name": "Jen", "numbers": {19,20,12,7,3,5}},
+    {"name": "Jordan", "numbers": {15,4,1,6,8,7}}
 ]
 top_player = players[0]
 for player in players:
