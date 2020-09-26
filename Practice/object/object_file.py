@@ -2,13 +2,13 @@
 
 my_student = {
     "name": "Rolf Smith",
-    "grades": [70, 88, 90, 99],
+    "grade": [70, 88, 90, 99],
     "average": None
 }
 
 
 def average_grade(student):
-    return sum(student['grades']) / len(student['grades'])
+    return sum(student['grade']) / len(student['grade'])
 
 
 class Student:
@@ -25,3 +25,5 @@ student_two = Student('Jose', [50, 60, 99, 100])
 
 print(student_one.average())
 print(Student.average(student_one))
+
+
