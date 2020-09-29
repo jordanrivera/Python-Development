@@ -10,4 +10,3 @@ err = RuntimeErrorWithCode('An error happend.', 500)
 print(err.__doc__)
 
 
-
