@@ -19,8 +19,12 @@ def email_engaged_user(user):
 
 
 def perform_calculation(metrics):
-    return metrics['clicks'] * 5 + metrics['hits'] * 2
+    return metrics['click'] * 5 + metrics['hits'] * 2
 
 
 def send_engagement_notification(user):
     print(f'Notification sent to  {user}.')
+
+
+my_user = User('Rolf', {'clicks': 61, 'hits': 100})
+email_engaged_user(my_user)
