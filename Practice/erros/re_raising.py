@@ -1,17 +1,21 @@
 class User:
-    def __init(self, name, engagement):
+    def __init__(self, name, engagement):
         self.name = name
         self.engagement_metrics = engagement
+        self.score = 0
 
     def __repr__(self):
         return f'<User {self.name}>'
 
 
-def get_user_score(user):
+def email_engaged_user(user):
     try:
-        return perform_calculation(user.engagement_metrics)
+        user_score = perform_calculation(user.engagement_metrics)
     except KeyError:
-        print('Incorrect values provied to our calculation function.')
+        print('Incorrect values provided to our calculation function.')
+    else:
+        if user.score > 500:
+            send_engagement_notification(user)
 
 
 def perform_calculation(metrics):
@@ -23,4 +27,4 @@ def send_engagement_notification(user):
 
 
 my_user = User('Rolf', {'clicks': 61, 'hits': 100})
-get_user_score(my_user)
+email_engaged_user(my_user)
