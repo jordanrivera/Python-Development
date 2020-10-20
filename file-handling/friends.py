@@ -4,7 +4,8 @@
 
 friends = input('Enter three friend names, separated by commas (no spaces, please): ').split(',')
 people = open('people.txt', 'r')
-people_nearby = people.readlines()
+people_nearby = [line.strip() for line in people.readlines()]
+
 
 people.close()
 
@@ -17,6 +18,6 @@ nearby_friends_file = open('nearby_friends.txt', 'w')
 
 for friend in friends_nearby_set:
     print(f'{friend} is nearby! Meet up with them.')
-    nearby_friends_file.write(f'{friend}')
+    nearby_friends_file.write(f'{friend}\n')
 
 nearby_friends_file.close()
