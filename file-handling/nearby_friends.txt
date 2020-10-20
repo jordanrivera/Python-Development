@@ -1,6 +1,0 @@
-# Ask the user for a list of 3 friends
-# for each friend we'll tel the user whether they re nearby
-# For each nearby friend, we'll save their name to 'nearby_friends.txt'
-
-# hint: readlines()
-
